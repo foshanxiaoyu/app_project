@@ -1,0 +1,9 @@
+复制行。按 Shift + Alt + 向下箭头 (Mac: command + Shift + 向下箭头)
+第一行或最后一行，是按 Ctrl + Home (Mac: command + Home)键开头，
+然后按 Ctrl + End (Mac: command + End)键结尾
+删光标当前行 Shift + Ctrl + k 或  Ctrl + X
+行移动向下 Alt + 向下箭头 行移动向上 Alt + 向上箭头
+向上插入行 (Shift + Ctrl + 回车)
+向下插入行 (Ctrl + 回车)
+批量替换当前文件中所有匹配的文本 按Ctrl + F2 (Mac: command + F2)一次改所有出现的文本
+多光标 Shift + Alt + L 
