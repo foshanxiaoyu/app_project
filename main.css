@@ -1,0 +1,82 @@
+html {
+    height: 100%;
+}
+body {
+    background-color: #2f3035;
+    background-image: url(images/bz.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.container {
+    /* border: 1px; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    /* background-color: blue; */
+    /* border-radius: 1em; */
+}
+
+header {
+    /* background-color: pink; */
+    height:118px;
+    text-align: left;
+}
+
+nav {
+    background-color: rgb(0,0,0,0.238);
+    /* height: 40px; */
+    text-align: center;
+    padding-top: 12px;
+    margin-bottom: 28px;
+}
+main {
+    /* background-color: rgb(232, 228, 235); */
+    height: 400px;
+    text-align: center;
+    /* margin-top: 60px; */
+    padding-top: 20px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+footer {
+    margin-top: 110px;
+    background-color: rgba(0, 0, 0, 0.062);
+    padding-top: 10px;
+    /* height: 100px; */
+}
+h1{
+    font-size: 84px;
+    color:rgb(58, 52, 52);
+    font-family: Arial, Helvetica, sans-serif;
+}
+main p {
+    font-size: 28px;
+    /* color: white; */
+    color: rgb(228, 165, 70);
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+   color: rgb(255, 255, 255);
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none; 
+}
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* .no-under line {
+    text-decoration: none;
+} */
+footer p {
+    text-align: center;
+    font-family: verdana;
+    font-size: 12px;
+    color: aliceblue;
+
+} 
