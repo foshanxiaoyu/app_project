@@ -1,5 +1,5 @@
 var count = 0;
-$("btnAjaxCall").click(function () {
+$("#btnAjaxCall").click(function () {
     fetchDataAndDisplay();
 })
 function fetchDataAndDisplay() {
@@ -11,13 +11,20 @@ function fetchDataAndDisplay() {
         var end = start + 5;
         var str = '';
         for (var i = start; i < end; i++) {
-            str = '<div class="item-details">' + 'USER ID is=' + e[i].userID + '<br/>' + 'Title is =' + e[i].title + '<br/>' + "</div>";
+            str += '<div class="item-details">' +
+                'USER ID is=' + e[i].userId + '<br/>' +
+                'ID is=' + e[i].id + '<br/>' +
+                'Title is =' + e[i].title + '<br/>' +
+                '</div>';
         }
-        if (start >= e.length - 5) {
+
+        if (start >= e.length-5) {
             count = 0;
+            $(".display-data").empty();
             $(".display-data").append("List Traver over");
             return;
         }
+
         count++;
         $(".display-data").empty();
         $(".display-data").append(str);

@@ -21,7 +21,7 @@
     
   }
   #btnAjaxCall:hover{
-    cursor:pointer;
+    cursor:pointer;  /* 标变只手 */
     opacity:1;
   }
   .item-details{
