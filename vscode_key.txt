@@ -6,5 +6,5 @@
 向上插入行 (Shift + Ctrl + 回车)
 向下插入行 (Ctrl + 回车)
 批量替换当前文件中所有匹配的文本 按Ctrl + F2 (Mac: command + F2)一次改所有出现的文本
-多光标 Shift + Alt + L 
+多光标 ALT+鼠标 
 格式化代码 Shift + Alt + F 
